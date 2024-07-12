@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nv{
+    background: rgb(39, 39, 39);
+}
+.banner-salas{
+    background-image: url(../img/Banner.jpg);
+    text-align: center;
+}
+.banner-salas h1{
+    color: aliceblue;
+}
+.cont{
+    background: grey;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "img1 img2 img3 img3"
+    "img1 img4 img5 img6"
+    "img7 img4 img8 img8";
+}
+.item{
+    border: 4px solid rgb(39, 39, 39);
+    /* height: 50px; */
+}
+.item1{
+    background-image: url(../img/estudio1.png);
+    background-size: cover;
+    background-position: center;
+    grid-area: img1;
+}
+.item2{
+    background-image: url(../img/estudio2.png);
+    background-size: cover;
+    background-position: center;
+    grid-area: img2;
+}
+.item3{
+    background-image: url(../img/estudio3.png);
+    background-size: cover;
+    background-position: center;
+    grid-area: img3;
+}
+.item4{
+    background-image: url(../img/estudio4.png);
+    background-size: cover;
+    background-position: center;
+    grid-area:img4;
+}
+.item5{
+    background-image: url(../img/estudio5.png);
+    background-size: cover;
+    background-position: center;
+    grid-area:img5;
+}
+.item6{
+    background-image: url(../img/estudio6.png);
+    background-size: cover;
+    background-position: center;
+    grid-area:img6;
+}
+.item7{
+    background-image: url(../img/estudio7.png);
+    background-size: cover;
+    background-position: center;
+    grid-area:img7;
+}
+.item8{
+    background-image: url(../img/drumRec.png);
+    background-size: cover;
+    background-position: center;
+    grid-area:img8;
+}

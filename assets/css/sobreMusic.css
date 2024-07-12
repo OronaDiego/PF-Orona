@@ -1,0 +1,30 @@
+.nv{
+    background: #769bc5;
+}
+.banner-sobre{
+    background-image: url(../img/estudio1.png);
+    text-align: center;
+}
+.banner-sobre h1{
+    color: aliceblue;
+    padding-top: 100px;
+}
+.contenido-sobre{
+    text-align: center;
+    background-image: url(../img/Recurso.png);
+    background-repeat: no-repeat;
+    background-size: 80px;
+}
+.grab{
+    background-image: url(../img/Recurso.png);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: right;
+}
+.contenido-sobre h2{
+    color: #9FAFC1;
+    padding: 10px;   
+}
+.contenido-sobre p{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,25 @@
+.nv{
+    background: rgb(90, 89, 89);
+}
+.banner-proyectos{
+    background-image: url(../img/cassets.png);
+    text-align: center;
+}
+.banner-proyectos h1{
+    color:antiquewhite;
+}
+.sections{
+    text-align: center;
+    margin-top: 20vh;
+}
+.proyect{
+    background-image: url(../img/recusroMicRotate.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+.recurso{
+    background-image: url(../img/recusroMicRotateLeft.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: right;
+}

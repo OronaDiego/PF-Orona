@@ -7,13 +7,15 @@
 }
 .banner-sobre h1{
     color: aliceblue;
-    padding-top: 100px;
+    padding-top: 300px;
 }
 .contenido-sobre{
     text-align: center;
     background-image: url(../img/Recurso.png);
     background-repeat: no-repeat;
     background-size: 80px;
+    transition: all 2s;
+    
 }
 .grab{
     background-image: url(../img/Recurso.png);
@@ -23,7 +25,8 @@
 }
 .contenido-sobre h2{
     color: #9FAFC1;
-    padding: 10px;   
+    padding: 10px;
+    margin-top: 20px;   
 }
 .contenido-sobre p{
     margin-bottom: 10px;

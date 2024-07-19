@@ -7,19 +7,21 @@
 }
 .banner-proyectos h1{
     color:antiquewhite;
-}
-.sections{
-    text-align: center;
-    margin-top: 20vh;
+    padding-top: 300px;
 }
 .proyect{
     background-image: url(../img/recusroMicRotate.png);
     background-repeat: no-repeat;
     background-size: 100px;
 }
+.proyect_sections{
+    text-align: center;
+    margin-top: 10vh;
+}
 .recurso{
     background-image: url(../img/recusroMicRotateLeft.png);
     background-repeat: no-repeat;
     background-size: 100px;
     background-position: right;
+
 }

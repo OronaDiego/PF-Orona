@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Libreria Wow-Animate  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- CSS -->
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/sobreMusic.css">
@@ -60,36 +62,36 @@
 
     <div class="container-fluid contenido-sobre">
         <div class="row">
-            <h2>Grabacion Profesional</h2>
-            <p>Con mas de 10 años en grabación digital y analógica capturando así el sonido mas fiel de tu instrumento. Tenemos diferentes planes de grabación que se ajustan a tu proyecto, también contamos con producción musical, grabación de baterías acústicas , grabaciones multipista, mastering, mezcla y grabación de video 4k</p>
+            <h2 class="wow animate__fadeInUp" data-wow-duration="1s">Grabacion Profesional</h2>
+            <p class="wow animate__fadeInLeft" data-wow-duration="2s">Con mas de 10 años en grabación digital y analógica capturando así el sonido mas fiel de tu instrumento. Tenemos diferentes planes de grabación que se ajustan a tu proyecto, también contamos con producción musical, grabación de baterías acústicas , grabaciones multipista, mastering, mezcla y grabación de video 4k</p>
         </div>
         <div class="row">
-            <h2>Grabacion Multipista profesional</h2>
-            <p>Contamos con mas de 32 canales de grabación y también espacio preparado para poder grabar todos los instrumentos separados sin que se filtre sonido de otro lado</p>
+            <h2 class="wow animate__fadeInUp" data-wow-duration="1.5s">Grabacion Multipista profesional</h2>
+            <p class="wow animate__fadeInRight" data-wow-duration="2.5s">Contamos con mas de 32 canales de grabación y también espacio preparado para poder grabar todos los instrumentos separados sin que se filtre sonido de otro lado</p>
         </div>
         <div class="row">
-            <h2>Grabación Digital Y análoga</h2>
-            <p>Brindamos a tu proyecto la posibilidad de grabar con tecnología digital, análoga o una combinación de ambas</p>
+            <h2 class="wow animate__fadeInUp" data-wow-duration="2s">Grabación Digital Y análoga</h2>
+            <p class="wow animate__fadeInLeft" data-wow-duration="3s">Brindamos a tu proyecto la posibilidad de grabar con tecnología digital, análoga o una combinación de ambas</p>
         </div>
         <div class="row">
-            <h2>Producción musical</h2>
-            <p>Contanos tus ideas y te ayudamos a producir tu disco, encontrar tu sonido y ofrecerte la mejor opciones técnicas para lograrlo</p>
+            <h2 class="wow animate__fadeInUp" data-wow-duration="2.5s">Producción musical</h2>
+            <p class="wow animate__fadeInRight" data-wow-duration="3.5s">Contanos tus ideas y te ayudamos a producir tu disco, encontrar tu sonido y ofrecerte la mejor opciones técnicas para lograrlo</p>
         </div>
         <div class="row grab">
-            <h2>Grabación de Baterías</h2>
-            <p>Tenemos los mejores micrófonos del mercado para poder captar el mejor sonido para tus baterías. También contamos con baterías para grabar en el caso que no tengas una propia</p>
+            <h2 class="wow animate__fadeInUp" data-wow-duration="3s">Grabación de Baterías</h2>
+            <p class="wow animate__fadeInLeft" data-wow-duration="4s">Tenemos los mejores micrófonos del mercado para poder captar el mejor sonido para tus baterías. También contamos con baterías para grabar en el caso que no tengas una propia</p>
         </div>
         <div class="row">
-            <h2>Mastering</h2>
-            <p>En este ultimo paso tan importante de la postproducción de tu audio. Equilibramos los elementos sonoros de una mezcla estéreo y optimizamos la reproducción en todos los sistemas y formatos</p>
+            <h2 class="wow animate__fadeInUp" data-wow-duration="3s">Mastering</h2>
+            <p class="wow animate__fadeInRight" data-wow-duration="4s">En este ultimo paso tan importante de la postproducción de tu audio. Equilibramos los elementos sonoros de una mezcla estéreo y optimizamos la reproducción en todos los sistemas y formatos</p>
         </div>
         <div class="row">
-            <h2>Mezcla</h2>
-            <p>En este proceso balanceamos y equilibramos el volumen relativo y ecualizamos las fuentes de sonido que se encuentran presentes en un evento sonoro</p>
+            <h2 class="wow animate__fadeInUp" data-wow-duration="3s">Mezcla</h2>
+            <p class="wow animate__fadeInLeft" data-wow-duration="4s">En este proceso balanceamos y equilibramos el volumen relativo y ecualizamos las fuentes de sonido que se encuentran presentes en un evento sonoro</p>
         </div>
         <div class="row">
-            <h2>Grabación de video</h2>
-            <p>Te ofrecemos grabar videos de alta resolución 4k, contamos con tecnología digital y operadores para realizar el video mientras grabas tu disco. También grabamos tu video clip.</p>
+            <h2 class="wow animate__fadeInUp" data-wow-duration="3s">Grabación de video</h2>
+            <p class="wow animate__fadeInRight" data-wow-duration="4s">Te ofrecemos grabar videos de alta resolución 4k, contamos con tecnología digital y operadores para realizar el video mientras grabas tu disco. También grabamos tu video clip.</p>
         </div>
     </div>
 
@@ -114,8 +116,14 @@
             <!-- <a href="#" class="subir"><i class="fa-solid fa-chevron-up"></i></a> -->
         </footer>
         <!-- Footer fin -->
-    
-    
+        
+        <!-- Script para animaciones  -->
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+        <!-- Bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
             crossorigin="anonymous"></script>

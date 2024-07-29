@@ -1,185 +1,396 @@
-.navbar{
-    font-size: 20px;
-    background-color: #552917;
-}
-.collapse{
-    justify-content: end; 
-}
-.jum{
-    background-image: url(../img/estudio6.png);
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-}
-.jum h1{
-    /* margin-top: 80px; */
-    margin-bottom: 50px;
-    font-size: 60px;
-}
-.jum a{
-    border: 1px solid rgb(255, 255, 255);
-    color: aliceblue;
-    text-decoration: none;
-    padding: 5px 20px;
-    border-radius: 20px;
-    font-size: 20px;
-}
-.jum a:hover{
-    background-color: rgb(56, 56, 56);
-}
-/* SectionMusicProyect */
-.sobre{
-    text-align: center;
-    background-image: url(../img/bannerSobreMusic.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    padding: 20px;
-}
-.sobre h2{
-    margin-top: 5px;
-}
-.frase{
-    margin-top: 35vh;
+@charset "UTF-8";
+.navbar {
+  font-size: 20px;
+  background-color: #552917;
 }
 
-.sobre a{
-    text-decoration: none;
-    color: black;
-    border: 1px solid black;
-    padding: 5px 20px;
-    border-radius: 20px;
-    margin-bottom: 30px;
+.collapse {
+  justify-content: end;
 }
-.sobre a:hover{
-    box-shadow: inset 0 0 10px black;
+
+.jum {
+  background-image: url(../img/estudio6.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.jum h1 {
+  /* margin-top: 80px; */
+  margin-bottom: 50px;
+  font-size: 60px;
+}
+
+.jum a {
+  border: 1px solid aliceblue;
+  color: aliceblue;
+  text-decoration: none;
+  padding: 5px 20px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.jum a:hover {
+  background-color: rgb(56, 56, 56);
+}
+
+/* SectionMusicProyect */
+.sobre {
+  text-align: center;
+  background-image: url(../img/bannerSobreMusic.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.sobre h2 {
+  margin-top: 5px;
+}
+
+.frase {
+  margin-top: 35vh;
+}
+
+.sobre a {
+  text-decoration: none;
+  color: #161918;
+  border: 1px solid #161918;
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.sobre a:hover {
+  box-shadow: inset 0 0 10px #161918;
 }
 
 /* Fin sobre music Proyect */
-
 /* INICIO Seccion Grabacion Profesional */
-.g-profesional{
-    text-align: center;
-    /* height: 100vh; */
-    /* background-image: url(../img/Rec.png); */
-    /* background-repeat: no-repeat;
+.g-profesional {
+  text-align: center;
+  /* height: 100vh; */
+  /* background-image: url(../img/Rec.png); */
+  /* background-repeat: no-repeat;
     background-position: center; */
-    padding: 50px 0px 0px 0px;
-}
-.g-profesional h2{
-    margin: 10px 0 30px 0;
-    padding: 10px 0px 0px 0px;
-}
-.g-profesional img{
-    transition: all 1s;
+  padding: 50px 0px 0px 0px;
 }
 
-.g-profesional img:hover{
-    transform: rotate(360deg);
+.g-profesional h2 {
+  margin: 10px 0 30px 0;
+  padding: 10px 0px 0px 0px;
 }
-.video{
-    margin-right: 90px;
+
+.g-profesional img {
+  transition: all 1s;
 }
-.ensayo{
-    margin-right: 70px;
+
+.g-profesional img:hover {
+  transform: rotate(360deg);
 }
-.conoce-mas a{
-    text-decoration: none;
-    color: #161918;
-    border: 1px solid #F1AF67;
-    border-radius: 20px;
-    padding: 10px 30px;
+
+.video {
+  margin-right: 90px;
+}
+
+.ensayo {
+  margin-right: 70px;
+}
+
+.conoce-mas a {
+  text-decoration: none;
+  color: #161918;
+  border: 1px solid #f1af67;
+  border-radius: 20px;
+  padding: 10px 30px;
 }
 
 /* FIN Grabacion Profesional */
-
-
 /* INICIO Seccion ACompañan */
-.acomp{
-    text-align: center;
-    height: 50vh;
-    margin-top: 100px;
+.acomp {
+  text-align: center;
+  height: 50vh;
+  margin-top: 100px;
 }
-.acomp h2{
-    padding: 20px;
-    font-size: 45px;
-}
-.acomp img{
-    transition: all 1.1s;
-}
-.acomp img:hover{
-    transform: scale(1.5);
 
+.acomp h2 {
+  padding: 20px;
+  font-size: 45px;
 }
+
+.acomp img {
+  transition: all 1.1s;
+}
+
+.acomp img:hover {
+  transform: scale(1.5);
+}
+
 /* FIN Acompañan */
-
 /* Proyects */
-.project{
-    padding:20px ;
-    text-align: center;
-    background-image: url(../img/cassets.png);
-    background-size: cover;
+.project {
+  padding: 20px;
+  text-align: center;
+  background-image: url(../img/cassets.png);
+  background-size: cover;
 }
-.project h2{
-    font-size: 50px;
-    background: white;
+
+.project h2 {
+  font-size: 50px;
+  background: aliceblue;
 }
-.project a{
-    text-decoration: none;
-    border: 1px solid rgb(212, 212, 212);
-    color: aliceblue;
-    padding: 7px 25px;
-    border-radius: 20px;
-    background: #161918;
-    font-size: 25px;
+
+.project a {
+  text-decoration: none;
+  border: 1px solid aliceblue;
+  color: aliceblue;
+  padding: 7px 25px;
+  border-radius: 20px;
+  background: #161918;
+  font-size: 25px;
 }
-.project a:hover{
-    background: white;
-    color: #161918;
-    border: 2px solid black;
+
+.project a:hover {
+  background: aliceblue;
+  color: #161918;
+  border: 2px solid #161918;
 }
 
 /* Footer */
-.piePag{
+.piePag {
+  text-align: center;
+  padding: 30px;
+}
+
+.redes a {
+  color: #161918;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.piePag p {
+  font-size: 15px;
+  color: #161918;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 320px) {
+  .frase {
+    margin-top: 55vh;
+  }
+  .g-profesional {
+    /* background-image: url(../img/Rec.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .piePag {
+    display: flex;
+    align-items: center;
     text-align: center;
-    padding: 30px;
+  }
 }
-.redes a{
-    color: #161918;
-    font-size: 30px;
-    padding: 10px;
+@media screen and (min-width: 578px) {
+  .project h2 {
+    background: none;
+  }
 }
-.piePag p{
-    font-size: 15px;
-    color: #161918;
-    flex-wrap: wrap;
+@media screen and (min-width: 1000px) {
+  .frase {
+    margin-top: 75vh;
+  }
 }
-
-
-
-@media screen and (min-width:320px){
-    .frase{
-        margin-top: 55vh;
-    }
-    .g-profesional{
-        /* background-image: url(../img/Rec.png); */
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    .piePag{
-        display: flex;
-        align-items: center;
-        text-align: center;
-    }
-} 
-@media screen and (min-width:578px){
-    .project h2{
-        background: none;
-    }
-}
-@media screen and (min-width:1000px) {
-    .frase{
-        margin-top: 75vh;
-    }
+.nv {
+  background: #161918;
 }
 
+.banner-contacto {
+  background-image: url(../img/bannerContacto.png);
+  color: aliceblue;
+  text-align: center;
+  line-height: 350px;
+}
+
+.banner-contacto h1 {
+  padding: 20px;
+}
+
+.formulario {
+  text-align: center;
+}
+
+.formulario label, input {
+  margin: 15px;
+}
+
+.formulario button {
+  border: 2px solid #161918;
+  border-radius: 10px;
+}
+
+.formulario button:hover {
+  background: #161918;
+  color: aliceblue;
+}
+
+.nv {
+  background: #5a5959;
+}
+
+.banner-proyectos {
+  background-image: url(../img/cassets.png);
+  text-align: center;
+}
+
+.banner-proyectos h1 {
+  color: aliceblue;
+  padding-top: 300px;
+}
+
+.proyect {
+  background-image: url(../img/recusroMicRotate.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+}
+
+.proyect_sections {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.recurso {
+  background-image: url(../img/recusroMicRotateLeft.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: right;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nv {
+  background: #272727;
+}
+
+.banner-salas {
+  background-image: url(../img/Banner.jpg);
+  text-align: center;
+}
+
+.banner-salas h1 {
+  color: aliceblue;
+}
+
+.cont {
+  background: #9FAFC1;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "img1 img2 img3 img3" "img1 img4 img5 img6" "img7 img4 img8 img8";
+}
+
+.item {
+  border: 4px solid #161918;
+  /* height: 50px; */
+}
+
+.item1 {
+  background-image: url(../img/estudio1.png);
+  background-size: cover;
+  background-position: center;
+  grid-area: img1;
+}
+
+.item2 {
+  background-image: url(../img/estudio2.png);
+  background-size: cover;
+  background-position: center;
+  grid-area: img2;
+}
+
+.item3 {
+  background-image: url(../img/estudio3.png);
+  background-size: cover;
+  background-position: center;
+  grid-area: img3;
+}
+
+.item4 {
+  background-image: url(../img/estudio4.png);
+  background-size: cover;
+  background-position: center;
+  grid-area: img4;
+}
+
+.item5 {
+  background-image: url(../img/estudio5.png);
+  background-size: cover;
+  background-position: center;
+  grid-area: img5;
+}
+
+.item6 {
+  background-image: url(../img/estudio6.png);
+  background-size: cover;
+  background-position: center;
+  grid-area: img6;
+}
+
+.item7 {
+  background-image: url(../img/estudio7.png);
+  background-size: cover;
+  background-position: center;
+  grid-area: img7;
+}
+
+.item8 {
+  background-image: url(../img/drumRec.png);
+  background-size: cover;
+  background-position: center;
+  grid-area: img8;
+}
+
+.nv {
+  background: 769bc5;
+}
+
+.banner-sobre {
+  background-image: url(../img/estudio1.png);
+  text-align: center;
+}
+
+.banner-sobre h1 {
+  color: aliceblue;
+  padding-top: 300px;
+}
+
+.contenido-sobre {
+  text-align: center;
+  background-image: url(../img/Recurso.png);
+  background-repeat: no-repeat;
+  background-size: 80px;
+  transition: all 2s;
+}
+
+.grab {
+  background-image: url(../img/Recurso.png);
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position: right;
+}
+
+.contenido-sobre h2 {
+  color: #9FAFC1;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.contenido-sobre p {
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */

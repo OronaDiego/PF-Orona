@@ -1,12 +1,15 @@
+$blanco: aliceblue;
+$bgNavProyect:#5a5959;
+
 .nv{
-    background: rgb(90, 89, 89);
+    background: $bgNavProyect;
 }
 .banner-proyectos{
     background-image: url(../img/cassets.png);
     text-align: center;
 }
 .banner-proyectos h1{
-    color:antiquewhite;
+    color:$blanco;
     padding-top: 300px;
 }
 .proyect{

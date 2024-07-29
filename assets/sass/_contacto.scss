@@ -1,10 +1,12 @@
+$blanco: aliceblue;
+$negro:#161918;
 .nv{
-    background: rgb(31, 31, 31);
+    background: $negro;
 }
 
 .banner-contacto{
     background-image: url(../img/bannerContacto.png);
-    color: aliceblue;
+    color: $blanco;
     text-align: center;
     line-height: 350px;
 }
@@ -18,10 +20,10 @@
     margin: 15px;
 }
 .formulario button{
-    border: 2px solid black;
+    border: 2px solid $negro;
     border-radius: 10px;
 }
 .formulario button:hover{
-    background: rgb(37, 37, 37);
-    color: aliceblue;
+    background: $negro;
+    color: $blanco;
 }

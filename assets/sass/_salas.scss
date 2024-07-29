@@ -1,3 +1,8 @@
+//colores
+$bgNavSalas:#272727;
+$blanco: aliceblue;
+$gris:#9FAFC1;
+$negro:#161918;
 *{
     margin: 0;
     padding: 0;
@@ -5,17 +10,17 @@
 }
 
 .nv{
-    background: rgb(39, 39, 39);
+    background: $bgNavSalas;
 }
 .banner-salas{
     background-image: url(../img/Banner.jpg);
     text-align: center;
 }
 .banner-salas h1{
-    color: aliceblue;
+    color: $blanco;
 }
 .cont{
-    background: grey;
+    background: $gris;
     height: 100vh;
     width: 100%;
     display: grid;
@@ -27,7 +32,7 @@
     "img7 img4 img8 img8";
 }
 .item{
-    border: 4px solid rgb(39, 39, 39);
+    border: 4px solid $negro;
     /* height: 50px; */
 }
 .item1{

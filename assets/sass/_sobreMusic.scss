@@ -1,12 +1,15 @@
+$bgNavSobre: 769bc5;
+$blanco: aliceblue;
+$gris:#9FAFC1;
 .nv{
-    background: #769bc5;
+    background: $bgNavSobre;
 }
 .banner-sobre{
     background-image: url(../img/estudio1.png);
     text-align: center;
 }
 .banner-sobre h1{
-    color: aliceblue;
+    color: $blanco;
     padding-top: 300px;
 }
 .contenido-sobre{
@@ -24,7 +27,7 @@
     background-position: right;
 }
 .contenido-sobre h2{
-    color: #9FAFC1;
+    color: $gris;
     padding: 10px;
     margin-top: 20px;   
 }

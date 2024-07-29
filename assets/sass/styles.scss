@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Montserrat", sans-serif;
+}
 //Colores
 $bgNavHome:#552917;
 $blanco: aliceblue;
 $negro:#161918;
 $dorado:#f1af67;
+
+
 
 .navbar {
   font-size: 20px;
@@ -79,12 +85,19 @@ $dorado:#f1af67;
   /* background-repeat: no-repeat;
     background-position: center; */
   padding: 50px 0px 0px 0px;
+    p{
+        padding: 20px;
+        font-weight: 600;
+        font-size: 20px;
+    }
 }
+
 
 .g-profesional h2 {
   margin: 10px 0 30px 0;
   padding: 10px 0px 0px 0px;
 }
+
 
 .g-profesional img {
   transition: all 1s;
@@ -108,6 +121,13 @@ $dorado:#f1af67;
   border: 1px solid $dorado;
   border-radius: 20px;
   padding: 10px 30px;
+  margin-top: 15px;
+  font-size: 20px;
+  transition: all 1s;
+  font-weight: 600;
+}
+.conoce-mas a:hover{
+    background: $dorado;
 }
 
 /* FIN Grabacion Profesional */

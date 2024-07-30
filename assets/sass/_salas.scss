@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 //colores
 $bgNavSalas:#272727;
 $blanco: aliceblue;
@@ -7,10 +9,12 @@ $negro:#161918;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;;
 }
 
 .nv{
     background: $bgNavSalas;
+
 }
 .banner-salas{
     background-image: url(../img/Banner.jpg);
@@ -18,7 +22,17 @@ $negro:#161918;
 }
 .banner-salas h1{
     color: $blanco;
+    padding-top: 350px;
 }
+.gal{
+    padding: 20px;
+
+    h2{
+        font-weight: 700;
+        font-size: 40px;
+    }
+}
+
 .cont{
     background: $gris;
     height: 100vh;

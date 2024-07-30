@@ -1,3 +1,6 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 $blanco: aliceblue;
 $bgNavProyect:#5a5959;
 
@@ -16,10 +19,19 @@ $bgNavProyect:#5a5959;
     background-image: url(../img/recusroMicRotate.png);
     background-repeat: no-repeat;
     background-size: 100px;
+    font-family: "Montserrat", sans-serif;
+    
 }
 .proyect_sections{
     text-align: center;
     margin-top: 10vh;
+    
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
 }
 .recurso{
     background-image: url(../img/recusroMicRotateLeft.png);

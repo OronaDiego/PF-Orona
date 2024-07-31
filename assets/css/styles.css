@@ -32,15 +32,51 @@
   border: 1px solid aliceblue;
   color: aliceblue;
   text-decoration: none;
-  padding: 5px 20px;
-  border-radius: 20px;
+  padding: 10px 15px;
+  border-radius: 7px;
   font-size: 20px;
+  transition: all 0.2s;
 }
 
 .jum a:hover {
-  background-color: rgb(56, 56, 56);
+  background-color: aliceblue;
+  color: #161918;
 }
 
+.btn-efx {
+  display: inline-block;
+  transform: perspective(1px) translateZ(0);
+}
+
+.btn-efx:hover,
+.btn-efx:focus,
+.btn-efx:active {
+  animation-name: efectoBTN;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+
+@keyframes efectoBTN {
+  17% {
+    transform: translateX(8px);
+  }
+  34% {
+    transform: translateX(-6px);
+  }
+  50% {
+    transform: translateX(4px);
+  }
+  67% {
+    transform: translateX(-2px);
+  }
+  84% {
+    transform: translateX(1px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 /* SectionMusicProyect */
 .sobre {
   text-align: center;

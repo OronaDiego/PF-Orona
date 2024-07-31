@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+// NUNITO
+//font-family: "Montserrat", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+//font-family: 'Nunito', sans-serif;
+
+
 *{
-    font-family: "Montserrat", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 //Colores
 $bgNavHome:#552917;
@@ -30,6 +36,7 @@ $dorado:#f1af67;
   /* margin-top: 80px; */
   margin-bottom: 50px;
   font-size: 60px;
+  color: $blanco;
 }
 
 .jum a {
@@ -93,7 +100,7 @@ $dorado:#f1af67;
   text-decoration: none;
   color: $negro;
   border: 1px solid $negro;
-  padding: 5px 20px;
+  padding: 10px 30px;
   border-radius: 20px;
   margin-bottom: 30px;
 }
@@ -132,6 +139,7 @@ $dorado:#f1af67;
 .card{
   width: 12rem;
   border: none;
+  background: #F8F9FA;
 }
 
 .conoce-mas a {
@@ -266,3 +274,4 @@ $dorado:#f1af67;
 @import "_proyectos";
 @import "_salas";
 @import "_sobreMusic";
+@import "_turnos";

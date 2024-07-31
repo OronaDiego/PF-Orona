@@ -1,0 +1,69 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+$blanco: aliceblue;
+$bgNavProyect:linear-gradient(90deg, rgba(45,39,30,1) 0%, rgba(56,56,56,1) 28%, rgba(194,193,184,1) 70%, rgba(92,45,22,1) 100%);
+
+.nv-turnos{
+    background: $bgNavProyect;
+}
+.banner-turnos{
+    background-image: url(../img/bannerTurnos.webp);
+    text-align: center;
+    h1{
+        color:$blanco;
+        padding-top: 300px;
+    }
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #343a40;
+    margin-bottom: 1.5rem;
+}
+.list-group-item{
+    border: none;
+    border-radius: 0.5rem;
+}
+.list-group-item:hover{
+    box-shadow: inset 0 0 10px $negro;
+}
+
+form {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+
+    .mb-3 {
+        margin-bottom: 1.5rem;
+    }
+
+    select.form-select,
+    input[type="date"].form-control {
+        background-color: $blanco;
+        border-color: #000;
+        color: black;
+
+        &:focus {
+            background-color: $blanco;
+            color: black;
+            border-color: #000;
+            box-shadow: none;
+        }
+    }
+
+    .btn-primary {
+        background-color: transparent;
+        border-color: $bgNavProyect;
+        color: black;
+        
+        &:hover {
+            background-color: #3a3a3a;
+            border-color: #000;
+            color: $blanco;
+        }
+    }
+}

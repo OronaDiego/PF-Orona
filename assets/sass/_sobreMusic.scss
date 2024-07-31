@@ -1,12 +1,14 @@
-$bgNavSobre: 769bc5;
+$bgNavSobre: linear-gradient(90deg, rgba(11,4,4,1) 0%, rgba(95,54,29,1) 26%, rgba(95,54,29,1) 74%, rgba(4,1,1,1) 100%);;
 $blanco: aliceblue;
 $gris:#9FAFC1;
 .nv{
     background: $bgNavSobre;
 }
 .banner-sobre{
-    background-image: url(../img/estudio1.png);
+    background-image: url(../img/bannerSobre.jpg);
     text-align: center;
+    background-position: center;
+    background-size: cover;
 }
 .banner-sobre h1{
     color: $blanco;
@@ -19,6 +21,9 @@ $gris:#9FAFC1;
     background-size: 80px;
     transition: all 2s;
     
+}
+.bg{
+    background-color: #e7edf3;
 }
 .grab{
     background-image: url(../img/Recurso.png);

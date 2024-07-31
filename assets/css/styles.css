@@ -7,8 +7,8 @@
 }
 
 .navbar {
-  font-size: 20px;
-  background-color: #552917;
+  font-size: 1.2rem;
+  background: linear-gradient(90deg, rgb(11, 4, 4) 0%, rgb(77, 39, 23) 26%, rgb(68, 35, 20) 74%, rgb(4, 1, 1) 100%);
 }
 
 .collapse {
@@ -112,10 +112,6 @@
 /* INICIO Seccion Grabacion Profesional */
 .g-profesional {
   text-align: center;
-  /* height: 100vh; */
-  /* background-image: url(../img/Rec.png); */
-  /* background-repeat: no-repeat;
-    background-position: center; */
   padding: 50px 0px 0px 0px;
 }
 .g-profesional p {
@@ -137,12 +133,9 @@
   transform: rotate(360deg);
 }
 
-.video {
-  margin-right: 90px;
-}
-
-.ensayo {
-  margin-right: 70px;
+.card {
+  width: 12rem;
+  border: none;
 }
 
 .conoce-mas a {
@@ -187,13 +180,13 @@
 .project {
   padding: 20px;
   text-align: center;
-  background-image: url(../img/cassets.png);
+  background-image: url(../img/micProyectosHome.jpg);
   background-size: cover;
 }
 
 .project h2 {
   font-size: 50px;
-  background: aliceblue;
+  color: aliceblue;
 }
 
 .project a {
@@ -232,7 +225,7 @@
 
 @media screen and (min-width: 320px) {
   .frase {
-    margin-top: 55vh;
+    margin-top: 40vh;
   }
   .g-profesional {
     /* background-image: url(../img/Rec.png); */
@@ -249,10 +242,13 @@
   .project h2 {
     background: none;
   }
+  .frase {
+    margin-top: 50vh;
+  }
 }
 @media screen and (min-width: 1000px) {
   .frase {
-    margin-top: 75vh;
+    margin-top: 55vh;
   }
 }
 .nv {

@@ -18,7 +18,7 @@
 }
 
 .jum {
-  background-image: url(../img/estudio6.png);
+  background-image: url(../img/estudio6.webp);
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -83,7 +83,7 @@
 /* SectionMusicProyect */
 .sobre {
   text-align: center;
-  background-image: url(../img/bannerSobreMusic.jpg);
+  background-image: url(../img/bannerSobreMusicHome.webp);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -184,7 +184,7 @@
 .project {
   padding: 20px;
   text-align: center;
-  background-image: url(../img/micProyectosHome.jpg);
+  background-image: url(../img/micProyectosHome.webp);
   background-size: cover;
 }
 
@@ -260,7 +260,7 @@
 }
 
 .banner-contacto {
-  background-image: url(../img/callMe1.png);
+  background-image: url(../img/BannerContactos.webp);
   color: aliceblue;
   text-align: center;
   line-height: 350px;
@@ -276,7 +276,7 @@
 }
 
 .bg-form {
-  background: url(../img/bg-contacto-cable.jpg);
+  background: url(../img/bg-contacto-cable.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -334,7 +334,7 @@
 }
 
 .banner-proyectos {
-  background-image: url(../img/cassets.png);
+  background-image: url(../img/BannerProyect.webp);
   text-align: center;
 }
 
@@ -380,7 +380,7 @@
 }
 
 .banner-salas {
-  background-image: url(../img/Banner.jpg);
+  background-image: url(../img/BannerSalas.webp);
   text-align: center;
 }
 
@@ -413,56 +413,56 @@
 }
 
 .item1 {
-  background-image: url(../img/estudio1.png);
+  background-image: url(../img/estudio1.webp);
   background-size: cover;
   background-position: center;
   grid-area: img1;
 }
 
 .item2 {
-  background-image: url(../img/estudio2.png);
+  background-image: url(../img/estudio2.webp);
   background-size: cover;
   background-position: center;
   grid-area: img2;
 }
 
 .item3 {
-  background-image: url(../img/estudio3.png);
+  background-image: url(../img/estudio3.webp);
   background-size: cover;
   background-position: center;
   grid-area: img3;
 }
 
 .item4 {
-  background-image: url(../img/estudio4.png);
+  background-image: url(../img/estudio4.webp);
   background-size: cover;
   background-position: center;
   grid-area: img4;
 }
 
 .item5 {
-  background-image: url(../img/estudio5.png);
+  background-image: url(../img/estudio5.webp);
   background-size: cover;
   background-position: center;
   grid-area: img5;
 }
 
 .item6 {
-  background-image: url(../img/estudio6.png);
+  background-image: url(../img/estudio6.webp);
   background-size: cover;
   background-position: center;
   grid-area: img6;
 }
 
 .item7 {
-  background-image: url(../img/estudio7.png);
+  background-image: url(../img/estudio7.webp);
   background-size: cover;
   background-position: center;
   grid-area: img7;
 }
 
 .item8 {
-  background-image: url(../img/drumRec.png);
+  background-image: url(../img/drumRec.webp);
   background-size: cover;
   background-position: center;
   grid-area: img8;
@@ -473,7 +473,7 @@
 }
 
 .banner-sobre {
-  background-image: url(../img/bannerSobre.jpg);
+  background-image: url(../img/bannerSobreMusic.webp);
   text-align: center;
   background-position: center;
   background-size: cover;
